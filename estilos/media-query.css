@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*TABLET*/
 @media screen and (min-width: 768px) and (max-width: 992px){
 
      body {
@@ -20,7 +20,7 @@
     }
     
 }
-
+/*DESKTOP*/
 @media screen and (min-width: 992px) {
 
      body {
@@ -31,7 +31,7 @@
         width: 950px;
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -39,4 +39,12 @@
         float: right;
         width: 50%;
     }
+
+    div#formulario > h1 {
+    font-size: 2em;
+}
+
+div#fomulario > p {
+    font-size: 1.2em;
+}
 }
